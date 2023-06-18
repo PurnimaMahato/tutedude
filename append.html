@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Changing Website content</title>
+</head>
+<body>
+    <p id="text1">javascript is </p>
+    <p id="text2">javascript is awesome</p>
+    <p id="text3"></p>
+    <button id = "button">click me</button>
+   <script>
+    //document.getElementById("text")
+    document.getElementById("button").onclick=function(){
+        document.getElementById("text1").innerHTML = document.getElementById("text1").innerHTML + "awesome";
+        document.getElementById("text2").innerHTML = "I think "+document.getElementById("text2").innerHTML;
+        document.getElementById("text3").innerHTML="hiiiii";
+
+    }
+   </script> 
+</body>
+</html>
